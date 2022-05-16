@@ -1,0 +1,103 @@
+
+    /* ========================================================================
+    Template : Blogos v1.0
+    Authour  : https://www.TheDesignStart.com
+    LIcense  :  www.TheDesignStart.com/license 
+    Template URL:  https://thedesignstart.com/templates/bootstrap/free-bootstrap-blog-template-blogos/
+    Version  : 1.0
+    ========================================================================= */
+  
+  /* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Bitter|Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+/* General Styles */
+body{
+  font-size: 16px;
+    line-height: 35px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #e2e2e2;
+}
+
+section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Varela Round', sans-serif;
+    background-color: #ffffff;
+}
+
+.blog-post h5 a,.blog-post h5 a:hover{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.a-name,.a-name:hover{
+text-decoration: none;
+}
+.image-blog-center{
+  display:block;
+margin-bottom: 15px;
+
+}
+a.nolinkdeco,a.nolinkdeco:hover{
+  text-decoration: none;
+}
+/* Header Styles */
+header{
+  background: url(images/header.jpg) no-repeat center center;
+  padding: 0;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+header .overlay{
+  padding-top: 65px;
+  background-color: rgba(0, 0, 0, 0.82);
+  padding-bottom: 30px;
+  color: #fff;
+}
+header .big-head{
+  font-family: 'Bitter', serif;
+      font-size: 50px;
+      font-weight: 900;
+      color: #fff;
+}
+header .inner-text{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 30px;
+}
+/* Blog Post Styles */
+.blog-title{
+  color: #0062cc;
+  padding-bottom: 20px;
+}
+
+.blog-post {
+    padding-bottom: 30px;
+    border-bottom: 2px solid #f4f4f4;
+    padding-top: 30px;
+    text-align: justify;
+}
+
+.btn-custom,.btn-custom:hover {
+  background-color: #4554c2;
+border-color: transparent;
+    color: #fff;
+    margin-bottom: 10px;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+/* Footer Styles */
+footer {
+    padding:20px;
+    background-color: #000;
+    color:#fff;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+}
+
+footer h3{
+  color: #fff;
+
+}
